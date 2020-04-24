@@ -45,7 +45,7 @@
 }
 
 .image:nth-child(1)::before {
-  background-image: url(s2s1.jpg);
+  background-image: url(s2s1.JPG);
 }
 
 .image:nth-child(2)::before {
