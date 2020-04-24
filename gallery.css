@@ -11,15 +11,17 @@
   padding-bottom: 30px;
 }
 
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
+/* break {
+ flex-basis: 100%;
+ width: 0px;
+ height: 0px;
+ overflow: hidden;
+} */
 
 .image {
   width: 260px;
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
   margin: 0 20px;
 }
@@ -27,7 +29,7 @@
 .image img {
   width: 100%;
 }
-
+/* 
 .image::before {
   content: '';
   position: absolute;
@@ -66,4 +68,4 @@
 
 .image:nth-child(6)::before {
   background-image: url(s2s3.jpg);
-}
+} */
