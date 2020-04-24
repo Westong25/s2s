@@ -1,5 +1,5 @@
 $(window).on("load", function () {
-  setTimeout(fadeSpinner, 1000)
+  setTimeout(fadeSpinner, 500)
 })
 
 function fadeSpinner () {
@@ -8,9 +8,18 @@ function fadeSpinner () {
 
 $(window).load(function () {
   $('.id-container').hide();
-  setTimeout(displayPage, 1000);
+  setTimeout(displayPage, 500);
 });
 
 function displayPage() {
   $('.id-container').fadeIn();
+};
+
+$(window).load(function () {
+  $('.gallery-container').hide();
+  setTimeout(displayGallery, 500);
+});
+
+function displayGallery() {
+  $('.gallery-container').fadeIn();
 };
